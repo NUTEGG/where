@@ -64,5 +64,6 @@
     <string name="title_activity_about_us">关于我们</string>
     <string name="title_activity_leave_msg">给我们留言</string>
     <string name="hello_world">Hello world!</string>
+    <string name="about_ourTeam">\\t我们的团队成员曾致力于开发政府、核电站、企业的各类办公应用，因为梦想，我们聚集在一起组成了NUTEGG团队，此应用为我们模拟网上的开源项目进行的一个远程协作开发测试，功能需求不是很强大，但是为了训练我们的模块化开发，我们后续会不断的进行更新，这是我们通过GITHUB和GIT.OSCHINA远程开发的开始,加油吧!勇敢的少年们!</string>
 
 </resources>

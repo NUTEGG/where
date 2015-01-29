@@ -215,6 +215,7 @@ public final class R {
         public static final int upload_photo=0x7f090012;
     }
     public static final class string {
+        public static final int about_ourTeam=0x7f07003d;
         public static final int action_settings=0x7f070001;
         public static final int agreement=0x7f070011;
         public static final int agreement_desc=0x7f070027;
