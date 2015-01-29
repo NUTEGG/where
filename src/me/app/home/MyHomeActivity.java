@@ -522,12 +522,15 @@ public class MyHomeActivity extends FragmentActivity implements
 					LeaveMsgActivity.class);
 			startActivity(intent3);
 			break;
-		case R.id.linear_app:
-			DiyManager.showRecommendAppWall(MyHomeActivity.this);
-			break;
-		case R.id.linear_game:
-			DiyManager.showRecommendGameWall(MyHomeActivity.this);
-			break;
+			/*
+			 * 注释了应用推荐和游戏推荐的两个链接
+			 */
+//		case R.id.linear_app:
+//			DiyManager.showRecommendAppWall(MyHomeActivity.this);
+//			break;
+//		case R.id.linear_game:
+//			DiyManager.showRecommendGameWall(MyHomeActivity.this);
+//			break;
 		default:
 			break;
 

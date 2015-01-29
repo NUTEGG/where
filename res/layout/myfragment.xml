@@ -202,7 +202,7 @@
                 android:layout_height="wrap_content"
                 android:src="@drawable/mm_submenu_normal" />
         </LinearLayout>
-
+<!--
         <LinearLayout
             android:id="@+id/linear_app"
             android:layout_width="match_parent"
@@ -211,7 +211,7 @@
             android:background="@drawable/mylayout3"
             android:orientation="horizontal"
             android:padding="10dp" >
-
+ 
 			            <ImageView
 			                android:layout_width="32dp"
 			                android:layout_height="32dp"
@@ -265,6 +265,7 @@
                 android:layout_height="wrap_content"
                 android:src="@drawable/mm_submenu_normal" />
         </LinearLayout>
+         -->
     </LinearLayout>
 
 </ScrollView>
