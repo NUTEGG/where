@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_white"
+    android:orientation="vertical"
+    android:padding="3dp" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="我的会员等级"
+        android:textColor="@color/orange"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/blue"
+        android:contentDescription="@string/image_agree_des" />
+
+    <TextView
+        android:id="@+id/m_member_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mylayout"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/hello"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/member_instruction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mylayout2"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/hello"
+        android:textSize="18sp" />
+
+</LinearLayout>

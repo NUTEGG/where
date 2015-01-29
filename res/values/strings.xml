@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ta去哪啦</string>
+    <string name="action_settings"></string>
+    <string name="hello">Hello</string>
+
+    <!-- HomeActivity -->
+    <string name="str_close_title">提醒</string>
+    <string name="str_close_message">是否要退出应用</string>
+    <string name="str_ok">确定</string>
+    <string name="str_cancel">取消</string>
+    <string name="title_activity_my_home">Ta去哪啦</string>
+    <string name="title_activity_login">用户登录</string>
+    <string name="userName">用户名</string>
+    <string name="ta_userName">Ta的用户名</string>
+    <string name="ta_userPwd">Ta的查询密码</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="userPwd">密码</string>
+    <string name="rem_pwd">记住密码</string>
+    <string name="firm_pwd">确认密码</string>
+    <string name="agreement">同意注册协议</string>
+    <string name="agreement_name">用户注册协议</string>
+    <string name="error_agreement">请阅读用户协议条款并同意!</string>
+    <string name="email">邮箱，用于找回密码</string>
+    <string name="find_pwd">找回密码</string>
+    <string name="image_des1">清除</string>
+    <string name="error_name">请输入用户名！</string>
+    <string name="error_name_len1">用户名长度不能少于1个字符！</string>
+    <string name="error_name_len2">用户名长度不能多于10个字符！</string>
+    <string name="error_name_expr">用户名只能是字母和数字！</string>
+    <string name="error_pwd">请输入密码！</string>
+    <string name="error_pwd_match">两次密码输入不一致！</string>
+    <string name="error_pwd_len1">密码长度不能少于3个字符！</string>
+    <string name="error_pwd_len2">密码长度不能多于15个字符！</string>
+    <string name="error_pwd_expr">密码只能是字母和数字！</string>
+    <string name="error_pwd_old">请输入旧密码！</string>
+    <string name="error_pwd_new">请输入新密码！</string>
+    <string name="error_email">请输入邮箱！</string>
+    <string name="error_email_expr">邮箱格式不正确!</string>
+    <string name="error_email_expr2">邮箱不能输入中文!</string>
+    <string name="okBtn">确定</string>
+    <string name="user_email">邮箱</string>
+    <string name="agreement_desc">\t欢迎使用本软件\n本软件提供基于地图的定位功能，可以用于老婆对老公、家长对孩子、孩子对老人等多种情况的跟踪地位，旨在促进社会和谐！\n由于使用本软件造成的任何影响请使用者自行承担责任，本公司概不负责。</string>
+    <string name="read_desc">请仔细阅读如下条款</string>
+    <string name="read_desc2">亲，请仔细阅读软件的使用说明</string>
+    <string name="agreement_desc2">\t欢迎使用本软件，本软件提供基于地图的定位功能，可以用于老婆对老公、家长对孩子、孩子对老人等多种情况的跟踪地位，旨在促进社会和谐！</string>
+    <string name="instruct_desc">使用注意事项：\n1、打开软件后，您的位置信息就会上传，前提是您已经注册用户并登陆了；\n2、如果您设置了自己的查看密码，那么别人就可以通过您的用户名和该密码查看到您的位置；\n3、有些手机屏蔽了本软件的开机自启动服务，需要设置允许，这样就可以随心所欲查看你的Ta在哪啦；\n4、再次重申，我们的宗旨是促进社会和谐！</string>
+    <string name="register_protocal">同意注册协议</string>
+    <string name="register_name">新用户注册</string>
+    <string name="image_agree_des"></string>
+    <string name="title_activity_register">注册帐号</string>
+    <string name="title_activity_find_pwd">找回密码</string>
+    <string name="title_activity_agree">同意使用条款</string>
+    <string name="title_activity_ta_map">Ta在哪里</string>
+    <string name="title_activity_sign_today">签到</string>
+    <string name="sign_today">今日签到</string>
+    <string name="member_instruct">我的会员等级</string>
+    <string name="signed_today">今天已经签到啦</string>
+    <string name="sign_info">每天签到可以送积分，积分越高，会员等级越高，就能享受更高的服务哦！</string>
+    <string name="title_activity_my_level">我的会员等级</string>
+    <string name="title_activity_soft_use">本软件使用说明</string>
+    <string name="title_activity_about_us">关于我们</string>
+    <string name="title_activity_leave_msg">给我们留言</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

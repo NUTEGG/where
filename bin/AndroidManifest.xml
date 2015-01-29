@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.where.home"
+    android:versionCode="14"
+    android:versionName="7.2" >
+
+    <uses-sdk
+        android:minSdkVersion="13"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- 通过GPS得到精确位置 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 通过网络得到粗略位置 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 修改WiFi状态. 需要WiFi信息用于网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <!-- 启动应用程序 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <!-- 以下为可选权限 -->
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name="me.app.global.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/heart_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="TencentMapSDK"
+            android:value="P5CBZ-YASHJ-YUYFG-FILG2-C7QJ2-Y2BTW" />
+        <meta-data
+            android:name="XD_LM_DIA"
+            android:value="16ebe26db83a4a9782d23ef19afded52" />
+        <meta-data
+            android:name="InstallChannel"
+            android:value="xiaomi" />
+        <meta-data
+            android:name="TA_APPKEY"
+            android:value="Aqc1101478014" />
+
+        <activity
+            android:name="me.app.info.WelcomeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.lemi.pgk.HSlemi" />
+
+        <activity
+            android:name="com.lemi.pgk.HAlemi"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+
+        <receiver android:name="com.lemi.pgk.HBlemi" >
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="me.app.home.MyBootReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 添加必须的组件 -->
+        <activity
+            android:name="net.youmi.android.AdBrowser"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+
+        <service
+            android:name="net.youmi.android.AdService"
+            android:exported="false" >
+        </service>
+
+        <receiver android:name="net.youmi.android.AdReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 配置SmartBanner -->
+        <activity
+            android:name="net.youmi.android.SmartBannerActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:theme="@style/Transparent" >
+        </activity>
+
+        <service
+            android:name="net.youmi.android.SmartBannerService"
+            android:exported="false" >
+        </service>
+
+        <activity
+            android:name="me.app.home.MyHomeActivity"
+            android:label="@string/title_activity_my_home"
+            android:theme="@android:style/Theme.Holo" >
+        </activity>
+
+        <service
+            android:name="me.app.home.MyLocationService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="me.app.home.MyLocationService" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="me.app.login.LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="me.app.login.RegisterActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name="me.app.login.FindPwdActivity"
+            android:label="@string/title_activity_find_pwd" >
+        </activity>
+        <activity
+            android:name="me.app.login.AgreeActivity"
+            android:label="@string/title_activity_agree" >
+        </activity>
+        <activity
+            android:name="me.where.ta.TaMapActivity"
+            android:label="@string/title_activity_ta_map" >
+        </activity>
+        <activity
+            android:name="me.where.more.SignTodayActivity"
+            android:label="@string/title_activity_sign_today" >
+        </activity>
+        <activity
+            android:name="me.where.more.MyLevelActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_my_level" >
+        </activity>
+        <activity
+            android:name="me.where.more.SoftUseActivity"
+            android:label="@string/title_activity_soft_use" >
+        </activity>
+        <activity
+            android:name="me.where.more.AboutUsActivity"
+            android:label="@string/title_activity_about_us" >
+        </activity>
+        <activity
+            android:name="me.where.more.LeaveMsgActivity"
+            android:label="@string/title_activity_leave_msg" >
+        </activity>
+    </application>
+
+</manifest>

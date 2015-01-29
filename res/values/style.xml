@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="myact">
+        <item name="@android:activityOpenEnterAnimation">@anim/anim_into</item>
+        <item name="@android:activityOpenExitAnimation">@anim/anim_back</item>
+    </style>
+
+    <style name="mytheme" parent="@android:style/Theme">
+        <item name="@android:windowAnimationStyle">@style/myact</item>
+    </style>
+
+    <style name="Transparent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+
+</resources>
