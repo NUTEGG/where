@@ -202,7 +202,7 @@
                 android:layout_height="wrap_content"
                 android:src="@drawable/mm_submenu_normal" />
         </LinearLayout>
-<!--
+
         <LinearLayout
             android:id="@+id/linear_app"
             android:layout_width="match_parent"
@@ -265,7 +265,7 @@
                 android:layout_height="wrap_content"
                 android:src="@drawable/mm_submenu_normal" />
         </LinearLayout>
-         -->
+         
     </LinearLayout>
 
 </ScrollView>

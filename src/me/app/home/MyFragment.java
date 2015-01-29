@@ -43,8 +43,8 @@ public class MyFragment extends Fragment {
 		/*
 		 * 推荐应用和游戏的代码片段
 		 */
-//		this.mLayoutApp = (LinearLayout) view.findViewById(R.id.linear_app);
-//		this.mLayoutGame = (LinearLayout) view.findViewById(R.id.linear_game);
+		this.mLayoutApp = (LinearLayout) view.findViewById(R.id.linear_app);
+		this.mLayoutGame = (LinearLayout) view.findViewById(R.id.linear_game);
 		View.OnClickListener mClickListener = (View.OnClickListener) this
 				.getActivity();
 		this.mLayoutUs = (LinearLayout) view.findViewById(R.id.linear_us);

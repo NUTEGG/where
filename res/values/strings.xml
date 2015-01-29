@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Ta去哪啦</string>
+    <string name="app_name">追踪者</string>
     <string name="action_settings"></string>
     <string name="hello">Hello</string>
 
@@ -10,11 +10,11 @@
     <string name="str_close_message">是否要退出应用</string>
     <string name="str_ok">确定</string>
     <string name="str_cancel">取消</string>
-    <string name="title_activity_my_home">Ta去哪啦</string>
+    <string name="title_activity_my_home">追踪者</string>
     <string name="title_activity_login">用户登录</string>
     <string name="userName">用户名</string>
-    <string name="ta_userName">Ta的用户名</string>
-    <string name="ta_userPwd">Ta的查询密码</string>
+    <string name="ta_userName">目标用户名</string>
+    <string name="ta_userPwd">目标查询密码</string>
     <string name="login">登录</string>
     <string name="register">注册</string>
     <string name="userPwd">密码</string>
@@ -53,7 +53,7 @@
     <string name="title_activity_register">注册帐号</string>
     <string name="title_activity_find_pwd">找回密码</string>
     <string name="title_activity_agree">同意使用条款</string>
-    <string name="title_activity_ta_map">Ta在哪里</string>
+    <string name="title_activity_ta_map">追踪者</string>
     <string name="title_activity_sign_today">签到</string>
     <string name="sign_today">今日签到</string>
     <string name="member_instruct">我的会员等级</string>
